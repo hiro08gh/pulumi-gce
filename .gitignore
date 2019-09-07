@@ -1,0 +1,4 @@
+/bin/
+/node_modules/
+credential.json
+Pulumi.dev.yaml
