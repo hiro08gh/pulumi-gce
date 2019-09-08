@@ -7,7 +7,7 @@ const computeFirewall = new gcp.compute.Firewall("firewall", {
     network: network.id,
     allows: [{
         protocol: "tcp",
-        ports: [ "22" ],
+        ports: [ "22", "80" ],
     }],
 });
 
